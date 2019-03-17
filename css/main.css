@@ -8,6 +8,8 @@
     --primary-color: #0578ba;
 
     --primary-color: #044971;
+    --primary-color: #203864;
+    --primary-color: #22377c;
 
     --secondary-color: #131313;
 
@@ -39,8 +41,11 @@ html {
 #particles-js {
     position: absolute;
     width: 100%;
-    height: 25%;
+    /*    height: 25%;*/
+    height: 100%;
     z-index: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 40%, 67% 42%, 61% 20%, 38% 38%, 38% 52%, 10% 50%, 7% 57%, 0 56%, 0 0);
+    clip-path: polygon(100% 0, 100% 40%, 67% 42%, 61% 20%, 38% 38%, 38% 52%, 10% 50%, 7% 57%, 0 56%, 0 0);
 }
 
 .nopadding {
@@ -159,7 +164,7 @@ section {
 
 .logo-full-smaller {
     transform: scale(0.7);
-    
+
     border: 1px solid blue;
 }
 
@@ -171,7 +176,7 @@ section {
     transition: all 0.3s ease-in-out;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    
+
     transition: all 0.3s ease-in-out;
 }
 
@@ -200,7 +205,7 @@ section {
     font-size: 1.2rem;
 
     padding: 0 2px;
-    
+
     opacity: 0.8;
 
 }
@@ -218,7 +223,7 @@ section {
 
 .nav-link-main:hover {
     transform: translateY(-2px);
-    
+
     opacity: 1;
 }
 
@@ -304,15 +309,15 @@ section {
 
 }
 
-.arrowUp :hover{
+.arrowUp :hover {
     opacity: var(--hover-opacity);
 }
 
-.arrowUp :active{
-    transform: var(--button-active-translate);   
+.arrowUp :active {
+    transform: var(--button-active-translate);
 }
 
-.arrowUp{
+.arrowUp {
     opacity: 0.8;
     font-size: 3rem;
     color: var(--secondary-color) !important;
