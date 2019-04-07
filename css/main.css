@@ -5,14 +5,9 @@
 
     --hover-opacity: 0.6;
 
-    --primary-color: #0578ba;
+    --primary-color: #2c2c2c;
 
-    --primary-color: #044971;
-    --primary-color: #203864;
-    --primary-color: #343434;
-
-    --secondary-color: #131313;
-    --secondary-color: #499dff;
+    --secondary-color: #3E76B5;
 
     --light-color: #ffffff;
 
@@ -33,7 +28,7 @@ html {
     height: 100%;
     position: relative;
 
-    background-color: var(--secondary-color);
+    background-color: var(--light-color);
 
     font-size: 80%;
 }
@@ -82,21 +77,19 @@ section {
 
 #skills {
     background-color: var(--light-color);
-    color: var(--secondary-color);
     color: var(--primary-color);
 
 }
 
 #gallery {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--light-color);
 }
 
 
 #contact {
-    background-color: var(--light-color);
-    color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--light-color);
     position: relative;
 }
 
@@ -113,7 +106,7 @@ section {
 
 /*Loading screen*/
 .load-screen {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 
     position: fixed;
     top: 0;
@@ -168,6 +161,18 @@ section {
     background-size: cover;
 }
 
+.parallax-portfolio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+/*    filter: blur(5px);*/
+/*    z-index: -5;*/
+}
+
+
 /*navbar logo*/
 
 .logo-full {
@@ -178,8 +183,6 @@ section {
 
 .logo-full-smaller {
     transform: scale(0.7);
-
-    border: 1px solid blue;
 }
 
 /*Navbar*/
@@ -205,7 +208,7 @@ section {
     border-bottom: 1px solid var(--primary-color);
 */
 
-    box-shadow: 0px 2px rgba(4, 73, 113, 0.6);
+    box-shadow: 0px 2px rgba(62, 118, 181, 0.79);
 }
 
 
@@ -230,7 +233,7 @@ section {
 }
 
 .nav-link-black:hover {
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
 }
 
 
@@ -248,7 +251,7 @@ section {
 /*navlink active*/
 
 .active {
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
     transform: translateY(-3px);
     font-weight: 500;
 
@@ -426,7 +429,7 @@ section {
     z-index: -1;
     transition: all 0.3s ease-in-out;
 
-    opacity: 0.65;
+    opacity: 0.8;
 }
 
 .app-logo:hover {
@@ -566,14 +569,14 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: var(--secondary-color);
+    background-color: var(--light-color);
     height: 3.5rem;
-
-    color: var(--light-color);
+    
+    color: var(--primary-color);
 }
 
 .footerLink a {
-    color: var(--light-color);
+    color: var(--primary-color);
     font-size: 2.2rem;
 
     transition: all 0.2s ease-in-out;
@@ -581,7 +584,8 @@ footer {
 }
 
 .footerLink a:hover {
-    color: var(--primary-color);
+/*    color: var(--primary-color);*/
+    opacity: var(--hover-opacity);
 }
 
 .footerLink:active {

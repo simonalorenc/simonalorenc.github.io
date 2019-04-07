@@ -17,12 +17,16 @@ function navbarEdit() {
         if (window.scrollY > paralaxaHeight - (paralaxaHeight / 3)) {
             $(".navbar").addClass('navbar-black');
             $(".logo-full").addClass('logo-full-smaller');
+
+            $(".logo-full-smaller").attr("src","photos/logo/logo-blue.png");
+
             $(".nav-link").addClass('nav-link-black');
             
             $(".nav-link").removeClass('nav-link-main');
 
         } else {
             $(".navbar").removeClass('navbar-black');
+            $(".logo-full-smaller").attr("src","photos/logo/logo.png");
             $(".logo-full").removeClass('logo-full-smaller');
             $(".nav-link").removeClass('nav-link-black');
             
