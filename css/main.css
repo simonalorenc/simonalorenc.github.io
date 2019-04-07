@@ -100,6 +100,11 @@ section {
     position: relative;
 }
 
+#new-page{
+    background-color: var(--primary-color) !important;
+    color: var(--light-color);
+}
+
 
 .hide-element {
     visibility: hidden;
@@ -238,6 +243,7 @@ section {
 .nav-link-active:hover {
     color: black !important;
 }
+
 
 /*navlink active*/
 

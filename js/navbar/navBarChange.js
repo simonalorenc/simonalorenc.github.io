@@ -9,7 +9,6 @@ $(window).resize(function () {
 
 $(window).scroll(function () {
     navbarEdit();
-
 });
 
 function navbarEdit() {
@@ -34,6 +33,7 @@ function navbarEdit() {
         $(".navbar").addClass('navbar-black');
         $(".logo-full").addClass('logo-full-smaller');
         $(".nav-link").addClass('nav-link-black');
+        
 
     }
     //Paralaxa opacity
