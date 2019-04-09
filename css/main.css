@@ -5,7 +5,7 @@
 
     --hover-opacity: 0.6;
 
-    --primary-color: #2c2c2c;
+    --primary-color: #121212;
 
     --secondary-color: #3E76B5;
 
@@ -82,13 +82,13 @@ section {
 }
 
 #gallery {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--light-color);
 }
 
 
 #contact {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--light-color);
     position: relative;
 }
