@@ -10,7 +10,7 @@ loadBar.set(10);
 
 function showPage() {
     loadBar.set(100);
-    setTimeout(slideDelay, 1000);
+    setTimeout(slideDelay, 100);
 }
 
 function slideDelay() {
