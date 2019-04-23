@@ -442,6 +442,11 @@ section {
     transform: scale(1.2);
 }
 
+/*portfolio gallery*/
+
+.nGY2Icon-ellipsis-vert {
+    display: none !important;
+}
 
 
 /*MODAL*/
