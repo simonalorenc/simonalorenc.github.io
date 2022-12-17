@@ -18,7 +18,7 @@ function navbarEdit() {
             $(".navbar").addClass('navbar-black');
             $(".logo-full").addClass('logo-full-smaller');
 
-            $(".logo-full-smaller").attr("src","photos/logo/logo-blue.png");
+            $(".logo-full-smaller").attr("src","photos/logo/logo-black.svg");
 
             $(".nav-link").addClass('nav-link-black');
             
@@ -26,7 +26,7 @@ function navbarEdit() {
 
         } else {
             $(".navbar").removeClass('navbar-black');
-            $(".logo-full-smaller").attr("src","photos/logo/logo.png");
+            $(".logo-full-smaller").attr("src","photos/logo/logo-black.svg");
             $(".logo-full").removeClass('logo-full-smaller');
             $(".nav-link").removeClass('nav-link-black');
             
