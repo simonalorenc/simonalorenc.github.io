@@ -19,8 +19,6 @@ function navbarEdit() {
             $(".logo-full").addClass('logo-full-smaller');
 
             $(".logo-full-smaller").attr("src","photos/logo/logo-black.svg");
-
-            $(".nav-link").addClass('nav-link-black');
             
             $(".nav-link").removeClass('nav-link-main');
 
@@ -28,16 +26,13 @@ function navbarEdit() {
             $(".navbar").removeClass('navbar-black');
             $(".logo-full-smaller").attr("src","photos/logo/logo-black.svg");
             $(".logo-full").removeClass('logo-full-smaller');
-            $(".nav-link").removeClass('nav-link-black');
             
             $(".nav-link").addClass('nav-link-main');
 
         }
     } else {
         $(".navbar").addClass('navbar-black');
-        $(".logo-full").addClass('logo-full-smaller');
-        $(".nav-link").addClass('nav-link-black');
-        
+        $(".logo-full").addClass('logo-full-smaller');        
 
     }
     //Paralaxa opacity
