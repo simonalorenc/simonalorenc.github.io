@@ -7,12 +7,9 @@
 
     --primary-color: #121212;
 
-    --secondary-color: #3E76B5;
-
     --light-color: #ffffff;
     
     --main-text-color: #4A4A4A;
-
 }
 
 ::selection {
@@ -34,6 +31,8 @@ html {
     color: var(--main-text-color);
 
     font-size: 80%;
+
+    font-family: Raleway, sans-serif;
 }
 
 #particles-js {
@@ -65,35 +64,6 @@ section {
 
 .minHeight {
     min-height: 100vh !important;
-}
-
-#portfolio {
-    background-color: var(--secondary-color);
-    color: var(--light-color);
-}
-
-/*
-#portfolio h1 {
-    opacity: 0.6;
-}
-*/
-
-#skills {
-    background-color: var(--light-color);
-    color: var(--primary-color);
-
-}
-
-#gallery {
-    background-color: var(--primary-color);
-    color: var(--light-color);
-}
-
-
-#contact {
-    background-color: var(--secondary-color);
-    color: var(--light-color);
-    position: relative;
 }
 
 #new-page{
@@ -138,7 +108,6 @@ section {
 /*Paralaxa*/
 
 .paralaxa-shadow {
-    background-color: var(--secondary-color);
     background-color: var(--light-color);
     opacity: 0;
 
@@ -207,7 +176,6 @@ section {
     background-color: var(--light-color) !important;
 
     /*
-    border-bottom: 1px solid var(--secondary-color);
     border-bottom: 1px solid var(--primary-color);
 */
 
@@ -225,8 +193,6 @@ section {
     font-size: 1rem;
 
     padding: 0 2px;
-    
-/*    font-family: Arial;*/
 }
 
 .nav-link-main:hover {
@@ -246,7 +212,6 @@ section {
 /*navlink active*/
 
 .active {
-    color: var(--secondary-color) !important;
     transform: translateY(-3px);
     font-weight: 500;
 
@@ -306,24 +271,6 @@ section {
     font-size: 1.5rem;
 }
 
-/*Start text*/
-
-.homePageTitle {
-    /*    font-family: 'Courgette', cursive;*/
-
-    color: #ffffff;
-    /*    background-color: rgba(255, 255, 255, 0.63);*/
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-    z-index: 3;
-
-    font-size: 3.8rem;
-
-}
-
 .arrowDown {
     position: absolute;
     left: 50%;
@@ -354,7 +301,6 @@ section {
 .arrowUp {
     opacity: 0.8;
     font-size: 3rem;
-    color: var(--secondary-color) !important;
 }
 
 .arrowDown a:hover {
@@ -408,7 +354,6 @@ section {
 
 
 .portfolio-title {
-    background-color: var(--secondary-color);
     width: 19rem;
     height: 5rem;
     color: var(--light-color);
@@ -460,7 +405,6 @@ section {
 
 /*MODAL*/
 .modal-content {
-    background-color: var(--secondary-color);
     border: 1px solid var(--light-color);
     border-radius: 6px;
 }
@@ -482,10 +426,6 @@ section {
 .modal-body,
 .modal-footer {
     background-color: var(--light-color);
-}
-
-.modal-body {
-    color: var(--secondary-color);
 }
 
 .btn {
