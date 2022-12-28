@@ -35,16 +35,6 @@ html {
     font-family: Raleway, sans-serif;
 }
 
-#particles-js {
-    position: absolute;
-    width: 100%;
-    /*    height: 25%;*/
-    height: 100%;
-    z-index: 1;
-    -webkit-clip-path: polygon(100% 0, 100% 40%, 67% 42%, 61% 20%, 38% 38%, 38% 52%, 10% 50%, 7% 57%, 0 56%, 0 0);
-    clip-path: polygon(100% 0, 100% 40%, 67% 42%, 61% 20%, 38% 38%, 38% 52%, 10% 50%, 7% 57%, 0 56%, 0 0);
-}
-
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
@@ -259,7 +249,8 @@ section {
 /*Main text*/
 .main-text-header {
     font-size: 3.4rem;
-    font-family: PlayfairDisplay; 
+    font-family: PlayfairDisplay;
+    letter-spacing: 3px;
 /*    line-height: 1.2;*/
 }
 
