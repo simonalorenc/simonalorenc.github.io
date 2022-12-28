@@ -1,7 +1,7 @@
 var offset = window.innerHeight / 2;
 
 //waypoint1
-$('.skills-waypoints').addClass("hide-element")
+$('.about-me-waypoints').addClass("hide-element")
 
 //waypoint2
 $('.portfolio-waypoints').addClass("hide-element")
@@ -25,7 +25,7 @@ $(window).resize(function () {
 function initWaypoints() {
 
     var waypoint1 = new Waypoint({
-        element: $('.skills-waypoints'),
+        element: $('.about-me-waypoints'),
         handler: function (direction) {
             this.element.removeClass('hide-element');
 

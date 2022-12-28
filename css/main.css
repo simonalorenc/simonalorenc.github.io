@@ -388,18 +388,6 @@ a {
     font-size: 1rem;
 }
 
-.my-photo {
-    width: 12rem;
-    height: 12rem;
-    background-image: url("../photos/me-min.png");
-    border: 1px solid transparent;
-    border-radius: 100%;
-
-    background-position: center;
-    background-size: cover;
-}
-
-
 .emailLink {
     background-color: var(--primary-color);
     color: var(--light-color);
