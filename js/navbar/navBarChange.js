@@ -11,7 +11,7 @@ $(window).scroll(function () {
 function navbarEdit() {
     if (window.innerWidth >= 768) {
 
-        if (window.scrollY > window.innerHeight / 5) {
+        if (window.scrollY > window.innerHeight / 3) {
             $(".navbar").addClass('navbar-black');
             $(".logo-full").addClass('logo-full-smaller');
 
