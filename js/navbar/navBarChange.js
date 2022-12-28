@@ -12,7 +12,7 @@ function navbarEdit() {
     if (window.innerWidth >= 768) {
 
         if (window.scrollY > window.innerHeight / 3) {
-            $(".navbar").addClass('navbar-black');
+            $(".navbar").addClass('navbar-small');
             $(".logo-full").addClass('logo-full-smaller');
 
             $(".logo-full-smaller").attr("src","photos/logo/logo.png");
@@ -20,7 +20,7 @@ function navbarEdit() {
             $(".nav-link").removeClass('nav-link-main');
 
         } else {
-            $(".navbar").removeClass('navbar-black');
+            $(".navbar").removeClass('navbar-small');
             $(".logo-full-smaller").attr("src","photos/logo/logo.png");
             $(".logo-full").removeClass('logo-full-smaller');
             
@@ -28,7 +28,7 @@ function navbarEdit() {
 
         }
     } else {
-        $(".navbar").addClass('navbar-black');
+        $(".navbar").addClass('navbar-small');
         $(".logo-full").addClass('logo-full-smaller');        
 
     }

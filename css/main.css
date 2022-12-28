@@ -116,7 +116,7 @@ section {
     transition: all 0.3s ease-in-out;
 }
 
-.navbar-black {
+.navbar-small {
     padding-top: 0rem;
     padding-bottom: 0rem;
 
@@ -125,7 +125,6 @@ section {
     /*
     border-bottom: 1px solid var(--primary-color);
 */
-
     box-shadow: 0px 1px #00000040;
 }
 
@@ -140,6 +139,12 @@ section {
     font-size: 1rem;
 
     padding: 0 2px;
+}
+
+.nav-link:hover {
+    color: var(--main-text-color);
+
+    opacity: var(--hover-opacity);
 }
 
 .nav-link-main:hover {
@@ -159,9 +164,9 @@ section {
 /*navlink active*/
 
 .active {
+    color: black;
     transform: translateY(-3px);
     font-weight: 500;
-
     transition: all 0.2s ease-in-out;
 }
 
