@@ -219,42 +219,6 @@ section {
     font-family: 'Playfair Display', serif;
 }
 
-.arrowDown {
-    position: absolute;
-    left: 50%;
-    top: 93%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-    color: var(--light-color);
-}
-
-.arrowDown a {
-    color: var(--light-color);
-    padding: 5rem 3rem 3rem 3rem;
-
-    font-size: 3rem;
-
-    opacity: 0.5;
-
-}
-
-.arrowUp :hover {
-    opacity: var(--hover-opacity);
-}
-
-.arrowUp :active {
-    transform: var(--button-active-translate);
-}
-
-.arrowUp {
-    opacity: 0.8;
-    font-size: 3rem;
-}
-
-.arrowDown a:hover {
-    opacity: 0.3;
-}
-
 /*SKILLS*/
 
 .ldBar-label {
