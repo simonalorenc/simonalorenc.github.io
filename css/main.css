@@ -259,16 +259,19 @@ section {
 /*Main text*/
 .main-text-header {
     font-size: 3.4rem;
+    font-family: PlayfairDisplay; 
 /*    line-height: 1.2;*/
 }
 
 .main-text-subheader {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
+    font-family: Roboto; 
 /*    line-height: 1.2;*/
 }
 
 .main-text-subheader2 {
     font-size: 1.5rem;
+    font-family: PlayfairDisplay; 
 }
 
 .arrowDown {
@@ -308,7 +311,7 @@ section {
 }
 
 .section-header {
-    /*    color: var(--primary-color);*/
+    font-family: PlaifairDisplay;
 }
 
 /*SKILLS*/
@@ -646,9 +649,6 @@ footer {
 
     }
 }
-
-
-
 
 /*CSS HOVER*/
 
