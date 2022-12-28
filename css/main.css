@@ -224,40 +224,6 @@ section {
     font-family: 'Playfair Display', serif;
 }
 
-/*SKILLS*/
-
-.ldBar-label {
-    display: none
-}
-
-.skill-icon {
-    /*
-    font-size: 5rem;
-    height: 9rem;
-    width: 9rem;
-    background-color: var(--primary-color);
-    border-radius: 100%;
-    color: var(--light-color);
-*/
-
-    /*
-    position: absolute;
-    left: 31%;
-    top: 19%;
-*/
-    margin: auto;
-    top: 20%;
-    position: absolute;
-    width: 110px;
-    height: auto;
-}
-
-.skill-title {
-    /*    text-transform: uppercase;*/
-
-}
-
-
 /*Portfolio*/
 
 .portfolio-square {
