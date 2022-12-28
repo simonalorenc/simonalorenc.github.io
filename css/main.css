@@ -69,7 +69,7 @@ section {
 
 /*Loading screen*/
 .load-screen {
-    background-color: var(--primary-color);
+    background-color: var(--light-color);
 
     position: fixed;
     top: 0;
@@ -89,9 +89,9 @@ section {
 .loading-bar .ldBar-label {
     padding-top: 10px;
     display: block;
-    color: var(--light-color);
-    text-shadow: 0 0 white !important;
-    opacity: 0.6;
+/*    color: var(--light-color);*/
+/*    text-shadow: 0 0 white !important;*/
+/*    opacity: 0.6;*/
 }
 
 /*navbar logo*/
