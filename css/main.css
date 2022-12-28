@@ -94,47 +94,6 @@ section {
     opacity: 0.6;
 }
 
-
-/*Paralaxa*/
-
-.paralaxa-shadow {
-    background-color: var(--light-color);
-    opacity: 0;
-
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("../photos/main.jpg");
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    /* No fixed  disable paralax   */
-    /*    background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-portfolio{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-/*    filter: blur(5px);*/
-/*    z-index: -5;*/
-}
-
-
 /*navbar logo*/
 
 .logo-full {

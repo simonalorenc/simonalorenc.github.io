@@ -1,6 +1,3 @@
-var paralaxaShadow = $('.parallax');
-var paralaxaHeight = paralaxaShadow.outerHeight();
-
 navbarEdit();
 
 $(window).resize(function () {
@@ -14,7 +11,7 @@ $(window).scroll(function () {
 function navbarEdit() {
     if (window.innerWidth >= 768) {
 
-        if (window.scrollY > paralaxaHeight - (paralaxaHeight / 3)) {
+        if (window.scrollY > window.innerHeight / 5) {
             $(".navbar").addClass('navbar-black');
             $(".logo-full").addClass('logo-full-smaller');
 
@@ -35,9 +32,4 @@ function navbarEdit() {
         $(".logo-full").addClass('logo-full-smaller');        
 
     }
-    //Paralaxa opacity
-    //    var scrollPercent = (paralaxaHeight - window.scrollY) / paralaxaHeight;
-    //    if (scrollPercent >= 0 && scrollPercent <= 0.9) {
-    //        paralaxaShadow.css('opacity', scrollPercent);
-    //    }
 }
