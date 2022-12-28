@@ -7,7 +7,7 @@ $('.about-me-waypoints').addClass("hide-element")
 $('.portfolio-waypoints').addClass("hide-element")
 
 //waypoint3
-$('.gallery-waypoints').addClass("hide-element")
+$('.offer-waypoints').addClass("hide-element")
 
 //waypoint4
 $('.contact-waypoints').addClass("hide-element")
@@ -73,7 +73,7 @@ function initWaypoints() {
     })
 
     var waypoint3 = new Waypoint({
-        element: $('.gallery-waypoints'),
+        element: $('.offer-waypoints'),
         handler: function (direction) {
             this.element.removeClass('hide-element');
 
