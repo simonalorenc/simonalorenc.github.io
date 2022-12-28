@@ -15,13 +15,13 @@ function navbarEdit() {
             $(".navbar").addClass('navbar-black');
             $(".logo-full").addClass('logo-full-smaller');
 
-            $(".logo-full-smaller").attr("src","photos/logo/logo-black.svg");
+            $(".logo-full-smaller").attr("src","photos/logo/logo.png");
             
             $(".nav-link").removeClass('nav-link-main');
 
         } else {
             $(".navbar").removeClass('navbar-black');
-            $(".logo-full-smaller").attr("src","photos/logo/logo-black.svg");
+            $(".logo-full-smaller").attr("src","photos/logo/logo.png");
             $(".logo-full").removeClass('logo-full-smaller');
             
             $(".nav-link").addClass('nav-link-main');
