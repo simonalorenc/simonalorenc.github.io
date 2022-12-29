@@ -1,4 +1,4 @@
-var offset = window.innerHeight / 2;
+var offset = window.innerHeight;
 
 //waypoint1
 $('.about-me-waypoints').addClass("hide-element")
@@ -17,7 +17,7 @@ initWaypoints();
 $(window).resize(function () {
     Waypoint.destroyAll()
 
-    offset = window.innerHeight / 2;
+    offset = window.innerHeight;
 
     initWaypoints();
 });
