@@ -388,36 +388,9 @@ section {
 
 /*footer*/
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--light-color);
-    height: 3.5rem;
-    
-    color: var(--primary-color);
+footer p {
+    font-size: 0.8rem;
 }
-
-.footerLink a {
-    color: var(--primary-color);
-    font-size: 2.2rem;
-
-    transition: all 0.2s ease-in-out;
-
-}
-
-.footerLink a:hover {
-/*    color: var(--primary-color);*/
-    opacity: var(--hover-opacity);
-}
-
-.footerLink:active {
-    transform: var(--button-active-translate);
-}
-
-
-
 
 /*Queries*/
 
