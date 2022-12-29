@@ -29,24 +29,10 @@ function initWaypoints() {
         handler: function (direction) {
             this.element.removeClass('hide-element');
 
-            var barArr = document.getElementsByClassName('ldBar');
-
             if (direction == 'down') {
                 this.element.addClass('fadeInUp');
                 this.element.removeClass('fadeOutDown');
-
-                var animateDone = false;
-
-                for (var i = 0; i < barArr.length; ++i) {
-                    var bar = new ldBar(barArr[i]);
-                    bar.set(0);
-                    bar.set(barArr[i].getAttribute("data-value"));
-                }
             } else {
-//                for (var i = 0; i < barArr.length; ++i) {
-//                    var bar = new ldBar(barArr[i]);
-//                    bar.set(0);
-//                }
                 this.element.removeClass('fadeInUp');
                 this.element.addClass('fadeOutDown');
             }
