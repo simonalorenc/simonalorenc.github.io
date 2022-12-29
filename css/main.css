@@ -278,10 +278,21 @@ section {
 
 /*portfolio gallery*/
 
-.nGY2Icon-ellipsis-vert {
+/*.nGY2Icon-ellipsis-vert {*/
+/*    display: none !important;*/
+/*}*/
+
+#gallery {
+    padding-top: 100px !important;
+}
+
+.rotateLeftButton {
     display: none !important;
 }
 
+.rotateRightButton {
+    display: none !important;
+}
 
 /*MODAL*/
 .modal-content {
