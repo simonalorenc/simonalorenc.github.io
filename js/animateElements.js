@@ -31,10 +31,6 @@ function initWaypoints() {
 
             if (direction == 'down') {
                 this.element.addClass('fadeInUp');
-                this.element.removeClass('fadeOutDown');
-            } else {
-                this.element.removeClass('fadeInUp');
-                this.element.addClass('fadeOutDown');
             }
         },
         offset: offset
@@ -48,12 +44,7 @@ function initWaypoints() {
 
             if (direction == 'down') {
                 this.element.addClass('fadeInUp');
-                this.element.removeClass('fadeOutDown');
-            }else{
-                this.element.removeClass('fadeInUp');
-                this.element.addClass('fadeOutDown');
             }
-
         },
         offset: offset
     })
@@ -65,10 +56,6 @@ function initWaypoints() {
 
             if (direction == 'down') {
                 this.element.addClass('fadeInUp');
-                this.element.removeClass('fadeOutDown');
-            }else{
-                this.element.removeClass('fadeInUp');
-                this.element.addClass('fadeOutDown');
             }
         },
         offset: offset
@@ -81,10 +68,6 @@ function initWaypoints() {
 
             if (direction == 'down') {
                 this.element.addClass('fadeInUp');
-                this.element.removeClass('fadeOutDown');
-            }else{
-                this.element.removeClass('fadeInUp');
-                this.element.addClass('fadeOutDown');
             }
         },
         offset: offset
