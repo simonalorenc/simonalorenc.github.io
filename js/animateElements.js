@@ -1,13 +1,13 @@
-var offset = window.innerHeight / 2;
+var offset = window.innerHeight;
 
 //waypoint1
-$('.skills-waypoints').addClass("hide-element")
+$('.about-me-waypoints').addClass("hide-element")
 
 //waypoint2
 $('.portfolio-waypoints').addClass("hide-element")
 
 //waypoint3
-$('.gallery-waypoints').addClass("hide-element")
+$('.offer-waypoints').addClass("hide-element")
 
 //waypoint4
 $('.contact-waypoints').addClass("hide-element")
@@ -17,7 +17,7 @@ initWaypoints();
 $(window).resize(function () {
     Waypoint.destroyAll()
 
-    offset = window.innerHeight / 2;
+    offset = window.innerHeight;
 
     initWaypoints();
 });
@@ -25,28 +25,14 @@ $(window).resize(function () {
 function initWaypoints() {
 
     var waypoint1 = new Waypoint({
-        element: $('.skills-waypoints'),
+        element: $('.about-me-waypoints'),
         handler: function (direction) {
             this.element.removeClass('hide-element');
-
-            var barArr = document.getElementsByClassName('ldBar');
 
             if (direction == 'down') {
                 this.element.addClass('fadeInUp');
                 this.element.removeClass('fadeOutDown');
-
-                var animateDone = false;
-
-                for (var i = 0; i < barArr.length; ++i) {
-                    var bar = new ldBar(barArr[i]);
-                    bar.set(0);
-                    bar.set(barArr[i].getAttribute("data-value"));
-                }
             } else {
-//                for (var i = 0; i < barArr.length; ++i) {
-//                    var bar = new ldBar(barArr[i]);
-//                    bar.set(0);
-//                }
                 this.element.removeClass('fadeInUp');
                 this.element.addClass('fadeOutDown');
             }
@@ -73,7 +59,7 @@ function initWaypoints() {
     })
 
     var waypoint3 = new Waypoint({
-        element: $('.gallery-waypoints'),
+        element: $('.offer-waypoints'),
         handler: function (direction) {
             this.element.removeClass('hide-element');
 

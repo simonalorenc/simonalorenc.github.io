@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Pozycjonowanie   -->
-    <meta name="description" content="Portfolio Simony Lorenc, studentki Architektury Politechniki Krakowskiej. Zapraszam do obejrzenia moich projektów" />
+    <meta name="description" content="Nieszablonowe wnętrza zaprojektowane według Twoich potrzeb!" />
 
-    <meta name="keywords" content="Simona, Lorenc, Simona Lorenc, portfolio, architekt, Politechnika Krakowska, architektura, student, architecture, autocad, lumion, sketchup, architecture projects, wizualizacje, render" />
+    <meta name="keywords" content="Simona, Lorenc, Simona Lorenc, portfolio, architekt, wnętrza, architekt wnętrz, design, interior, Politechnika Krakowska, architektura, wizualizacje, render" />
 
     <meta name="author" content="Simona Lorenc">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <!--Font Awesome    -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -27,22 +27,20 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Animate CSS   -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css" />
 
-    <!--    FONTS GOOGL-->
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-
-    <!-- Nano gallery   -->
-    <link href="https://unpkg.com/nanogallery2@2.3.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
-
+    <!--FONTS GOOGL -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap" rel="stylesheet">
 
     <!--  Color mobile bar  -->
-    <meta name="theme-color" content="#3E76B5">
-
+    <meta name="theme-color" content="#FFFFFF">
 
     <!-- Ikona   -->
-    <link rel="icon" href="photos/logo/icon.ico">
-
+    <link rel="icon" href="photos/logo/logo-icon.png">
 
     <title>Simona Lorenc | Portfolio</title>
 
@@ -50,37 +48,23 @@
     
 <body data-spy="scroll" data-target="#navbar-top">
     
-        <!-- Loader   -->
+    <!-- Loader -->
     <div id="loader" class="load-screen animated d-flex align-items-end">
-        <div id="loadingBar" class="ldBar loading-bar label-center" data-value="0" data-preset="line" data-stroke="#3E76B5"></div>
-    </div>
-
-    <!-- Starts   -->
-    <div id="particles-js" class=""></div>
-
-    <!--Paralaxa    -->
-    <div id="Top" class="parallax"></div>
-
-
-    <div class="arrowDown d-flex justify-content-center">
-        <a href="#portfolio">
-            <div class="animated bounce infinite">
-                <i class="fas fa-angle-double-down"></i>
-            </div>
-        </a>
+        <div id="loadingBar" class="ldBar loading-bar label-center" data-value="0" data-preset="line" data-stroke="#4A4A4A"></div>
     </div>
     
+    <!-- Top -->
+    <div id="Top"></div>
     
     <!--NAVBAR   -->
-<nav id="navbar-top" class="navbar fixed-top navbar-expand-md">
-        <!--        <a class="navbar-brand hide-element" href="#">NAVBAR</a>-->
+    <nav id="navbar-top" class="navbar fixed-top navbar-expand-md">
         <div class="container">
 
             <div class="logo-div">
                 <a href="#Top">
                     <div class="row d-flex align-items-end">
                         <img class="logo-full d-none d-md-block" src="photos/logo/logo.png" alt="logo SL">
-                        <img class="logo-full d-md-none pl-2" src="photos/logo/logo-blue.png" alt="logo SL">
+                        <img class="logo-full d-md-none pl-2" src="photos/logo/logo.png" alt="logo SL">
                     </div>
                 </a>
             </div>
@@ -94,20 +78,21 @@
 
             <div class="collapse navbar-collapse" id="menu-center">
                 <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#about-me">O mnie</a>
+                    </li>
+                    
                     <li class="nav-item text-center">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
 
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="#skills">Umiejętności</a>
+                        <a class="nav-link" href="#offer">Oferta</a>
                     </li>
 
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="#gallery">Galeria</a>
-                    </li>
-
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="#contact">O mnie</a>
+                        <a class="nav-link" href="#contact">Kontakt</a>
                     </li>
 
                 </ul>
@@ -116,326 +101,255 @@
         </div>
     </nav>
     
-    
-    <!-- Portfolio   -->
+    <!-- Main   -->
+    <section id="main" class="d-flex align-items-center minHeight">
+        <div class="container main-waypoints animated">
 
-    <section id="portfolio" class="d-flex align-items-center">
-        <div class="container portfolio-waypoints animated">
+            <div class="row align-items-center">
 
-            <h1 class="section-header col text-center pb-4">Portfolio</h1>
-
-            <div class="container-fluid nopadding">
-                <div class="row d-flex justify-content-left">
-                    <div class="portfolio-square col-md-6 pb-3 pb-md-0 px-md-1">
-                        <a href="kwartalzabudowy.html">
-                            <img src="photos/portfolio/huta/00.jpg" class="app-logo img-fluid" alt="portfolio kwartalzabudowy" />
-                        </a>
+                <div class="col-12 col-md-6 order-2 order-md-1">
+                    <div class="d-flex flex-column">
+                        <div class="main-text-header">SIMONA LORENC</div>
+                        <div class="main-text-subheader">CONCEPT</div>
+                        <div class="main-text-paragraph mt-4">Nieszablonowe wnętrza zaprojektowane według Twoich potrzeb!</div>
                     </div>
-
-                    <div class="col-md-6 nopadding">
-                        <div class="container">
-                            <div class="row d-flex justify-content-center">
-                                <div class="portfolio-square col-md-6 pb-3 pb-md-2 px-md-1">
-                                    <a href="biezanowpolnocny.html">
-                                        <img src="photos/portfolio/mizia/5-min-min.jpg" class="app-logo img-fluid" alt="portfolio biezanowpolnocny" />
-                                    </a>
-                                </div>
-
-                                <div class="portfolio-square col-md-6 pb-3 pb-md-0 px-md-1">
-                                    <a href="domwkrajobrazie.html">
-                                        <img src="photos/portfolio/dom/11.jpg" class="app-logo img-fluid" alt="portfolio domwkrajobrazie" />
-                                    </a>
-                                </div>
-
-                            </div>
-                            <div class="row d-flex justify-content-center">
-                                <div class="portfolio-square col-md-6 pb-3 pb-md-0 px-md-1">
-                                    <a href="stadninakoni.html">
-                                        <img src="photos/portfolio/wsie/66_min.jpg" class="app-logo img-fluid" alt="portfolio stadninakoni" />
-                                    </a>
-                                </div>
-
-                                <div class="portfolio-square col-md-6 pb-3 pb-md-0 px-md-1">
-                                    <a href="domkultury.html">
-                                        <img src="photos/portfolio/dom_kultury/66-min.jpg" class="app-logo img-fluid" alt="portfolio domkultury" />
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 pb-0 pb-md-2"></div>
-                    
-                    
-                    <div class="col-md-4 nopadding">
-                        <div class="container-fluid ">
-                            <div class="row d-flex justify-content-center">
-                                <div class="portfolio-square pb-3 pb-md-2 px-md-1">
-                                    <a href="dombryla.html">
-                                        <img src="photos/portfolio/dom_bryla/10.jpg" class="app-logo img-fluid" alt="portfolio dombryla" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 nopadding">
-                        <div class="container-fluid ">
-                            <div class="row d-flex justify-content-center">
-                                <div class="portfolio-square pb-3 pb-md-2 px-md-1">
-                                    <a href="domkulturyhiszpanskiej.html">
-                                        <img src="photos/portfolio/dyplom/dyp(3).jpg" class="app-logo img-fluid" alt="portfolio domkulturyhiszpanskiej" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
                 </div>
+
+                <div class="col-8 col-md-6 order-1 order-md-2">
+                    <img src="photos/main_picture.webp" class="img-fluid" alt="" />
+                </div>
+
             </div>
         </div>
     </section>
-    
-    <!-- Skills   -->
 
-    <section id="skills" class="d-flex align-items-center">
-        <div class="container skills-waypoints animated">
-
-            <h1 class="section-header col text-center pb-4">Umiejętności</h1>
-
-            <div class="row">
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="95" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#AE222A"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/autocad.ico" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">AutoCAD</h3>
-
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="80" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#E23030"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/sketchup.ico" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">SketchUp</h3>
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="85" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#40738E"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/lumion.png" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">Lumion</h3>
-
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="80" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#001721"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/photosho.png" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">Photoshop</h3>
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="50" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#2A3174"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/revit.png" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">Revit</h3>
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="65" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#878787"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/archiCad.png" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">ArchiCad</h3>
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="99" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#FD5E5B"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/kreatywnosc.png" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">Kreatywność</h3>
-
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4">
-                    <div class="row d-flex justify-content-center">
-
-                        <div class="ldBar label-center" data-value="99" data-preset="circle" style="width:40%;height:40%;margin:auto" data-stroke="#FBBA00"></div>
-                        <img class="skill-icon img-fluid" src="photos/programIcon/dokladnosc.png" />
-                        <div class="w-100"></div>
-                        <h3 class="skill-title">Dokładność</h3>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-
-        </div>
-
-    </section>
-    
-      <!-- Gallery   -->
-    <section id="gallery" class="d-flex align-items-center">
-        <div class="container gallery-waypoints animated">
-
-            <h1 class="section-header col text-center pb-4">Galeria</h1>
-
-            <!-- generator: https://nanogallery2.nanostudio.org/builder.html   -->
-
-            <div ID="ngDom" data-nanogallery2='{
-            "itemsBaseURL": "photos/portfolio/dom/",
-            "thumbnailWidth": "200",
-            "thumbnailHeight": "auto",
-            "thumbnailBorderVertical": 0,
-            "thumbnailBorderHorizontal": 0,
-            "thumbnailGutterWidth": 7,
-            "thumbnailGutterHeight": 7,
-            "colorScheme": {
-              "thumbnail": {
-                "background": "rgba(68,68,68,0)"
-              }
-            },
-            "thumbnailDisplayTransition": "slideDown",
-            "thumbnailLabel": {
-              "display": false
-            },
-            "thumbnailHoverEffect2": "__0deg_10deg_1000|image_scale_1_0.9_1000",
-            "thumbnailAlignment": "center"
-          }'>
-                <a href="1.jpg" data-ngthumb="1.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="2.jpg" data-ngthumb="2.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="3.jpg" data-ngthumb="3.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="4.jpg" data-ngthumb="4.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="5.jpg" data-ngthumb="5.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="6.jpg" data-ngthumb="6.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="7.jpg" data-ngthumb="7.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="8.jpg" data-ngthumb="8.jpg" data-ngdesc="">Berlin 1</a>
-                <a href="9.jpg" data-ngthumb="9.jpg" data-ngdesc="">Berlin 1</a>
-
-
-
-            </div>
-
-
-
-        </div>
-
-    </section>
-    
-    <!-- Contact   -->
-    <section id="contact" class="d-flex align-items-center">
-        <div class="container contact-waypoints animated">
+    <!-- About me   -->
+    <section id="about-me" class="d-flex align-items-center">
+        <div class="container about-me-waypoints animated">
 
             <h1 class="section-header col text-center pb-4">O mnie</h1>
 
             <div class="row">
 
                 <div class="container col-12 py-4">
-                    <div class="row d-flex justify-content-center">
-                        <div class="my-photo mb-2">
-                        </div>
-                        <div class="w-100"></div>
-                        <h4>Simona Lorenc</h4>
-                        <div class="w-100"></div>
-                        <p class="text-center">I'm 22 years old<br>passionate about new technologies<br>study IT in Krakow,
-                            Poland</p>
-                        <div class="w-100"></div>
-
-                        <a class="linkCV" href="Simona_Lorenc.pdf" target="_blank">Download my Curriculum Vitae</a>
-                        <div class="w-100"></div>
-                        
-
+                    <div class="d-flex flex-column align-items-center">
+                        <h4>mgr inż. arch. Simona Lorenc</h4>
+                        <p class="col-12 col-md-8 text-justify">
+                            Jestem absolwentką wydziału Architektury na Politechnice Krakowskiej. Zdobyłam doświadczenie  pracując zarówno dla polskich, jak i zagranicznych pracowni architektonicznych. Projektowanie wnętrz jest moją pasją. Jestem sumienną, ambitną i kreatywną osobą. Uważam, że projekt wnętrza powinien piękny, pratyczny oraz odpowiadać potrzebom Klienta, i właśnie tak projektuję. Wnętrza zaprojektowane przeze mnie są spójne, a wszystkie jego elementy tworzą logiczną całość.
+                        </p>
                     </div>
                 </div>
             </div>
             
         </div>
+    </section>
+    
+    <!-- Portfolio   -->
+    <section id="portfolio" class="d-flex align-items-center">
+        <div class="container portfolio-waypoints animated">
 
-        <footer class="container-fluid d-flex justify-content-center align-items-center">
+            <h1 class="section-header col text-center pb-4">Portfolio</h1>
+
             <div class="row">
-                <div class="col footerLink">
-                    <a href="mailto:lorenc.simona@gmail.com">
-                        <i class="fas fa-envelope"></i>
+                <!-- #1 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="1.html">
+                        <img src="photos/portfolio/1/2-main.jpg" class="portfolio-img img-fluid" alt=""/>
                     </a>
                 </div>
-                <div class="col footerLink">
-                    <a href="https://www.facebook.com/simona.lorenc.7" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
+
+                <!-- #2 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="2.html">
+                        <img src="photos/portfolio/2/4-main.jpg" class="portfolio-img img-fluid" alt=""/>
                     </a>
                 </div>
-                <div class="col footerLink">
-                    <a href="https://www.instagram.com/simonalorenc/" target="_blank">
-                        <i class="fab fa-instagram"></i>
+
+                <!-- #3 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="3.html">
+                        <img src="photos/portfolio/3/1-main.jpg" class="portfolio-img img-fluid" alt=""/>
+                    </a>
+                </div>
+
+                <!-- #4 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="4.html">
+                        <img src="photos/portfolio/4/1-main.jpg" class="portfolio-img img-fluid" alt=""/>
+                    </a>
+                </div>
+
+                <!-- #5 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="5.html">
+                        <img src="photos/portfolio/5/1-main.jpg" class="portfolio-img img-fluid" alt=""/>
+                    </a>
+                </div>
+
+                <!-- #6 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="6.html">
+                        <img src="photos/portfolio/6/1-main.jpg" class="portfolio-img img-fluid" alt=""/>
+                    </a>
+                </div>
+
+                <!-- #7 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="7.html">
+                        <img src="photos/portfolio/7/5-main.jpg" class="portfolio-img img-fluid" alt=""/>
+                    </a>
+                </div>
+
+                <!-- #8 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="8.html">
+                        <img src="photos/portfolio/8/1-main.jpg" class="portfolio-img img-fluid" alt=""/>
+                    </a>
+                </div>
+
+                <!-- #9 -->
+                <div class="portfolio-square col-12 col-md-6 pb-3">
+                    <a href="9.html">
+                        <img src="photos/portfolio/9/1-main.jpg" class="portfolio-img img-fluid" alt=""/>
                     </a>
                 </div>
             </div>
-        </footer>
-        
+        </div>
     </section>
     
+    <!-- Offer   -->
+    <section id="offer" class="d-flex align-items-center">
+        <div class="container offer-waypoints animated">
+
+            <h1 class="section-header col text-center pb-4">Oferta</h1>
+
+            <div class="row">
+
+                <!-- concept -->
+                <div class="container col-12 col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="circle circle-dark-gray">
+                            <h2>1</h2>
+                        </div>
+                        <h4 class="pb-4">Projekt koncepcyjny</h4>
+                        <ul>
+                            <li>analiza potrzeb Klienta,</li>
+                            <li>inwentaryzacja (Kraków)/ praca na gotowym rzucie 2D</li>
+                            <li>3-4 propozycje układów funkcjonalnych,</li>
+                            <li>wizualizacje (z możliwością 2-krotnego wprowadzenia poprawek),</li>
+                            <li>lista wyposażenia</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- complex -->
+                <div class="container col-12 col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="circle circle-gray">
+                            <h2>2</h2>
+                        </div>
+                        <h4 class="pb-4">​Projekt kompleksowy</h4>
+                        <ul>
+                            <li>analiza potrzeb Klienta,</li>
+                            <li>inwentaryzacja (Kraków)/ praca na gotowym rzucie 2D</li>
+                            <li>3-4 propozycje układów funkcjonalnych,</li>
+                            <li>wizualizacje (z możliwością 2-krotnego wprowadzenia poprawek),</li>
+                            <li>szczegółowe rysunki wykonawcze,</li>
+                            <li>lista wyposażenia</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- complex plus -->
+                <div class="container col-12 col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="circle circle-light-gray">
+                            <h2>3</h2>
+                        </div>
+                        <h4 class="pb-4">Projekt kompleksowy plus</h4>
+                        <ul>
+                            <li>analiza potrzeb Klienta,</li>
+                            <li>inwentaryzacja (Kraków)/ praca na gotowym rzucie 2D</li>
+                            <li>5 propozycje układów funkcjonalnych,</li>
+                            <li>3 moodboardy stylistyczne do wyboru,</li>
+                            <li>wizualizacje (z możliwością 3-krotnego wprowadzenia poprawek),</li>
+                            <li>szczegółowe rysunki wykonawcze,</li>
+                            <li>lista wyposażenia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact  -->
+    <section id="contact" class="d-flex align-items-center">
+        <div class="container contact-waypoints animated">
+
+            <h1 class="section-header col text-center pb-4">Kontakt</h1>
+
+            <div class="row">
+
+                <!-- phone -->
+                <div class="container col-12 col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fa fa-phone fa-2x pb-4" aria-hidden="true"></i>
+                        <h4>Telefon</h4>
+                        <a class="emailLink" href="tel: 793733350" target="_blank">
+                            <p>793 733 350</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- mail -->
+                <div class="container col-12 col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fa fa-envelope fa-2x pb-4" aria-hidden="true"></i>
+                        <h4>E-mail</h4>
+                        <a class="emailLink" href="mailto: lorenc.simona@gmail.com" target="_blank">
+                            <p>lorenc.simona@gmail.com</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- connect -->
+                <div class="container col-12 col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fa fa-thumbs-up fa-2x pb-4" aria-hidden="true"></i>
+                        <h4>Connect</h4>
+                        <a class="emailLink" href="https://www.instagram.com/slorenc.concept/" target="_blank">
+                            <p><i class="fab fa-instagram fa-lg pr-2"></i>slorenc.concept</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Wszelkie prawa zastrzeżone © 2022 Simona Lorenc</p>
+    </footer>
     
-    
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-
-    <!-- Smoth scrool   -->
-    <script src="js/smooothScrool.js"></script>
-
-    <!--    Waypoints-->
+    <!-- Waypoints -->
     <script src="js/jquery.waypoints.min.js"></script>
 
-    <!-- Loading bar-->
+    <!-- Loading bar -->
     <script src="js/loading-bar.js"></script>
 
-    <!-- Particles   -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="js/particlesJs.js"></script>
-
-    <!-- Nano gallery   -->
-    <script type="text/javascript" src="https://unpkg.com/nanogallery2@2.3.0/dist/jquery.nanogallery2.min.js"></script>
-
-    <!-- MY Scripts     -->
+    <!-- MY Scripts -->
     <script src="js/loadingScreen.js"></script>
+
+    <script src="js/smoothScroll.js"></script>
 
     <script src="js/navbar/navBarChange.js"></script>
 
     <script src="js/navbar/navLinkActiveHover.js"></script>
 
     <script src="js/navbar/navHamburgerButtonChange.js"></script>
-
-    <script src="js/portfolioHover.js"></script>
 
     <script src="js/sectionHeight.js"></script>
 

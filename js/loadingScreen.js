@@ -1,26 +1,20 @@
-//var myVar;
-//
-//function myFunction() {
-//
-//    myVar = setTimeout(showPage, 3000);
-//}
 var bar = document.getElementsByClassName('loading-bar');
 var loadBar = new ldBar(bar[0]);
-loadBar.set(10);
+loadBar.set(1);
 
 function showPage() {
     loadBar.set(100);
-    setTimeout(slideDelay, 100);
+    setTimeout(slideDelay, 300);
 }
 
 function slideDelay() {
     $('.load-screen').addClass("slideOutDown");
-    setTimeout(closeIfAnimationUnsupported, 900);
+    setTimeout(closeIfAnimationUnsupported, 500);
 }
 
 function closeIfAnimationUnsupported() {
     $('#loader').fadeOut("slow");
-    setTimeout(closeIfAnimationUnsupportedForce, 400);
+    setTimeout(closeIfAnimationUnsupportedForce, 500);
 
 }
 
@@ -29,8 +23,7 @@ function closeIfAnimationUnsupportedForce() {
 }
 
 
-
 window.onload = function () {
-    loadBar.set(60);
-    setTimeout(showPage, 500);
+    loadBar.set(85);
+    setTimeout(showPage, 300);
 }
