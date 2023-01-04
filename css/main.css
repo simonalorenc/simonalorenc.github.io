@@ -48,6 +48,10 @@ h1 {
     /*    font-weight: 500;*/
 }
 
+p {
+    font-size: 1.1rem;
+}
+
 section {
     padding: 4rem 0 4rem 0 !important;
 }
@@ -395,6 +399,10 @@ section {
 
 .circle-light-gray {
     background: #A9A9A9;
+}
+
+.offer-list > * {
+    font-size: 1.1rem;
 }
 
 /*footer*/
