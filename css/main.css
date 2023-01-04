@@ -460,8 +460,13 @@ footer p {
         min-width: 100%;
     }
 
+    .navbar-nav > * > * {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
     .navbar-nav:last-child {
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
     }
 
 }
